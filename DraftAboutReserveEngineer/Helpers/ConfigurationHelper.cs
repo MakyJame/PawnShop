@@ -13,7 +13,7 @@ namespace DraftAboutReserveEngineer.Helpers
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-                .AddJsonFile("appsetting.json", optional: false, reloadOnChange: true);
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
             return builder.Build();
         }
     }
