@@ -1,0 +1,13 @@
+# Visual studio 
+.vs/
+*.user
+*.suo
+
+# Build outputs
+bin/
+obj/
+
+# SQL Server localdb files
+*.mdf
+*.ldf
+*.dbmdl
