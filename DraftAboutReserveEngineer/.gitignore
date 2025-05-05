@@ -8,6 +8,5 @@ bin/
 obj/
 
 # SQL Server localdb files
-*.mdf
 *.ldf
 *.dbmdl
